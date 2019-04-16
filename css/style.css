@@ -1,0 +1,56 @@
+@charset "utf-8";
+
+.content {
+	padding: 30px 0px 0px;
+}
+
+#spacer
+{
+    width: 100%;
+	padding: 1em 0 1em;
+}
+
+.anchor{
+  display: block;
+  height: 80px; /*same height as header*/
+  margin-top: -80px; /*same height as header*/
+  visibility: hidden;
+}
+
+span.title {
+  line-height: 1.1;
+  background:#0096d6;
+  color:#fff;
+  box-shadow:0.2em 0 0 #0096d6,-0.2em 0 0 #0096d6;
+  -moz-box-shadow:0.2em 0 0 #0096d6,-0.2em 0 0 #0096d6;
+  -webkit-box-shadow:0.2em 0 0 #0096d6,-0.2em 0 0 #0096d6;
+  font-size:45px;
+  font-family: 'HPSimplified', Helvetica, Arial, sans-serif;
+  font-weight: bold;
+}
+
+#ventajas {
+	text-align: justify;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background:#898888;
+    margin-bottom: 30px;
+}
+
+#logo {
+  float:right;
+  text-align:right;
+  padding-top:4px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+#prox {
+  display: inline-block;
+}

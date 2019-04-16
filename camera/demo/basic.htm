@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html> 
+<head> 
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" > 
+    <title>Slider</title> 
+    <link rel='stylesheet' href='../css/camera.css' type='text/css'> 
+    
+    <script type='text/javascript' src='../scripts/jquery.min.js'></script>
+    <script type='text/javascript' src='../scripts/jquery.mobile.customized.min.js'></script>
+    <script type='text/javascript' src='../scripts/jquery.easing.1.3.js'></script> 
+    <script type='text/javascript' src='../scripts/camera.min.js'></script> 
+    
+    <script>
+		jQuery(function(){
+			jQuery('#slider').camera({
+				pagination: false,
+				height: '400px',
+				fx: 'scrollLeft',
+				loader: 'none',
+			});
+		});
+	</script>
+
+    <style>
+	.camera_caption {
+		font-size: 30px;
+	}
+	</style>
+
+</head>
+<body>
+	<div style="width:60%; margin: auto">
+        <div class="camera_wrap camera_azure_skin" id="slider">
+            <div data-src="../images/officejetpro.png">
+                <div class="camera_caption fadeFromBottom">
+                    Imprima al doble de velocidad por la mitad del costo.
+                </div>
+            </div>
+            <div data-src="../images/overview_upto2x_bg.jpg">
+                <div class="camera_caption fadeFromBottom">
+                    Obtenga velocidades de impresión sin precedentes.
+                </div>
+            </div>
+            <div data-src="../images/bg-main.jpg">
+                    <div style="position:absolute; bottom:20%; left:5%; background:#000; color:#0096D6; padding:5px; width:80%; background-color:transparent;" class="fadeIn camera_effected">Únase a la evolución de la impresión.</div>
+            </div>       
+        </div><!-- #slider -->
+    </div><!-- .fluid_container -->
+</body> 
+</html>
